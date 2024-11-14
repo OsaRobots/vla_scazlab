@@ -16,3 +16,8 @@ logs/
 *.mp4
 libero.egg-info/
 .vscode/
+/Users/jeremiahetiosaomeike/Desktop/Research_Projs/vla/LIBERO/libero_venv/bin/
+.libero_venv
+libero_venv/
+__pycache__/
+*.egg-info/
