@@ -21,3 +21,4 @@ libero.egg-info/
 libero_venv/
 __pycache__/
 *.egg-info/
+*.npy

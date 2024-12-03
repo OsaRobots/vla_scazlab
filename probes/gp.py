@@ -818,3 +818,14 @@ def gpr_predict(
       warp_func=warp_func,
       var_only=var_only,
   )
+
+# Different types of uncertainties matter: how to figure out whether the 
+# VLA knows what a concept is (e.g., picking something up, who Taylor Swift is)
+# under the probe framework. 
+
+# VLA's are stateless --> don't carry information from the past action to the current 
+# only thing that changes is how it views itself and state of the world
+
+# Assumption: VLA internally is somehow trying to reason over whether or not 
+# actions lead to the goal. If we take images and give them labels (e.g., action is helping picking)
+# or going to Taylor Swift, should be able to probe this from the hidden states 
