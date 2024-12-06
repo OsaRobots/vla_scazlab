@@ -3,12 +3,12 @@ from matplotlib.animation import FuncAnimation
 import numpy as np
 from PIL import Image
 
-data_folder = "/Users/tetsu/Documents/School/Class/CPSC 473/vla_scazlab/CLAIRE/vla_run_data"
+data_folder = "/Users/tetsu/Documents/School/Class/CPSC 473/vla_scazlab/CLAIRE/vla_run_data/validate"
 
 while True:
     # Load the episode data
     num = input("Ep number: ")
-    path = f"{data_folder}/episode_test_{num}.npy"
+    path = f"{data_folder}/episode_validate_{num}.npy"
     ep = np.load(path, allow_pickle=True)
     print("#### TASK ####")
     print(ep[0]['language_instruction'])
