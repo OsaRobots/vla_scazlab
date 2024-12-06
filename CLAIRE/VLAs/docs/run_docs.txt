@@ -1,0 +1,9 @@
+## Run VLA Localy
+python3 test_vla.py --path '/home/ulas/VLAs/fine-tuned/openvla-7b+vla_dataset+b16+lr-0.0005+lora-r32+dropout-0.0' --unnorm vla_dataset
+
+## Sanity Check
+python3 sanity_check.py --path '/home/ulas/VLAs/fine-tuned/openvla-7b+vla_dataset+b16+lr-0.0005+lora-r32+dropout-0.0' --unnorm vla_dataset
+
+## Run VLA on Server
+ssh -L 8000:localhost:8000 uk@iqrlab-Lambda-Vector.stdusr.yale.internal
+python3 run_vla_client.py

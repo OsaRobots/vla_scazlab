@@ -1,0 +1,25 @@
+Left Joystick
+    -Roll
+    -Pitch
+
+Dpad
+    -Yaw (left right)
+
+Right Joystick
+    -X
+    -Y
+
+Left Trigger
+    -Z up
+
+Right Trigger
+    -Z down
+
+Right Bumper
+    -Save episode
+
+Left Bumper
+    -Open/Close Gripper
+
+A button
+    -Reset to start episode
