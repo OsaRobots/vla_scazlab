@@ -22,7 +22,6 @@ import jax.scipy.linalg as jspla
 
 vmap = jax.vmap
 
-
 def _verify_params(model_params, expected_keys):
   """Verify that dictionary params has the expected keys."""
   if not set(expected_keys).issubset(set(model_params.keys())):
@@ -30,7 +29,6 @@ def _verify_params(model_params, expected_keys):
         f'Expected parameters are {sorted(expected_keys)}, '
         f'but received {sorted(model_params.keys())}.'
     )
-
 
 def retrieve_params(params, keys, warp_func):
   """Returns a list of parameter values (warped if specified) by keys' order."""
